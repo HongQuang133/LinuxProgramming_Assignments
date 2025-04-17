@@ -1,0 +1,5 @@
+BT3. Tín hiệu Process
+1.	Mô tả: Viết một chương trình tạo hai process cha - con. Tiến trình cha sẽ gửi tín hiệu SIGUSR1 tới tiến trình con sau một khoảng thời gian.
+2.	Yêu cầu:
+    o	Sử dụng signal() để định nghĩa hành vi của tiến trình con khi nhận tín hiệu SIGUSR1.
+    o	In ra một thông báo khi tiến trình con nhận được tín hiệu.
